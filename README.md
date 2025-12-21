@@ -54,3 +54,6 @@ Fraud rates vary significantly by country, highlighting the importance of geoloc
 Fraudulent users tend to show higher transaction velocity and abnormal transaction frequency
 
 Time-based behavior (hour of day, day of week, time since signup) provides strong fraud signals
+
+### Code Structure and Modularity
+Core preprocessing logic such as geolocation mapping, feature engineering, and categorical encoding has been refactored into reusable modules under the `src/` directory to improve robustness, readability, and maintainability.
